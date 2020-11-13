@@ -1,0 +1,113 @@
+.logo{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+a:hover {
+    color: red;
+}
+.li-active{
+    color: red;
+    margin-right: 50px;
+}
+.container{
+    display: flex;
+    background-color:#21618C   ;
+    max-width: 100%;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+}
+.ul{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 350px;
+}
+.li{
+    margin-right: 50px;
+    color: #CCD1D1;
+}
+.li-small{
+    margin-right: 20px;
+    color:#CCD1D1;
+}
+.icon{
+    margin-right: 35px;
+    margin-left: 150px;
+}
+.section{
+    max-width: 100%;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/mestia-in-winter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-1{
+    color:#CCD1D1;
+    font-size: 40px;
+   margin-left: 1210px;
+   padding-top: 300px;
+}
+.p-2{
+    color:#CCD1D1;
+    font-size: 30px;
+    margin-left: 1050px;
+    margin-top: 20px;
+}
+/* .button{
+    background-color: blue;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+} */
+/* .forms{
+  margin-left: 650px;
+
+}
+.input{
+
+    background-color: #5BC3C3; 
+    height: 50px;
+} */
+.main-div{
+    position: relative;
+    width: 400px;
+}
+.img{
+    display: block;
+    width: 100%;
+}
+.surati{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+.surati:hover{
+    opacity: 1;
+}
+.budapeshti{
+    font-size: 30px;
+
+}
+.para{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.div-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
