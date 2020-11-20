@@ -21,7 +21,7 @@ a:hover {
 .ul{
     display: flex;
     margin-top: 80px;
-    margin-left: 350px;
+    margin-left: 150px;
 }
 .li{
     margin-right: 50px;
@@ -46,7 +46,7 @@ a:hover {
 .p-1{
     color:#CCD1D1;
     font-size: 40px;
-   margin-left: 1210px;
+   margin-left: 1050px;
    padding-top: 300px;
 }
 .p-2{
@@ -55,28 +55,23 @@ a:hover {
     margin-left: 1050px;
     margin-top: 20px;
 }
-/* .button{
-    background-color: blue;
-    width: 70px;
-    height: 40px;
-    border-radius: 10px;
-} */
-/* .forms{
-  margin-left: 650px;
-
-}
-.input{
-
-    background-color: #5BC3C3; 
-    height: 50px;
-} */
 .main-div{
     position: relative;
     width: 400px;
+   
 }
 .img{
     display: block;
     width: 100%;
+    
+    
+}
+.img-90{
+    display: block;
+    width: 100%;
+    margin-top: 80px;
+
+    
 }
 .surati{
     position: absolute;
@@ -110,4 +105,187 @@ a:hover {
     padding-right: 40px;
     padding-left: 40px;
 
+}
+.footer{
+    background-color:#21618C ;
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+}
+.social{
+    height: 50px;
+    display: flex;
+    margin-left: 20px;
+}
+.social1{
+    height: 50px;
+    width: 50px;
+    background-color: #f5f6fa ;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    line-height: 50px;
+}
+.social-div{
+    justify-content: column;
+}
+.tel1{
+    margin-top: 50px;
+    color: white;
+    margin-left: 30px;
+}
+.tel2{
+    color: white;
+}
+.mail{
+    margin-top: 50px;
+    color: white;
+    margin-left: 30px;
+}
+.mailt{
+    color: white;
+}
+.a i{
+    transition: all 0.3s linear;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.fa-facebook.f{
+    color:blue;
+}
+.fa-twitter{
+    color: #0097e6;
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fot{
+    display: flex;
+    justify-content: space-between;
+}
+.map{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+/* aviabiletebi */
+.section-avia{
+    padding-top: 200px;
+   
+}
+.button{
+    background-color: #21618C;
+    width: 75px;
+    height: 40px;
+    border-radius: 20px;
+}
+.forms{
+  margin-left: 400px;
+
+}
+.input{
+
+width: 180px;
+}
+.sct5{
+    max-width: 100%;
+    width: 100%;
+    height: 550px;
+    background-color: #21618C;
+    margin-top: 50px;
+
+}
+.sct77{
+    display: flex;
+    justify-content: space-between;
+}
+.services{
+    font-size: 25px;
+    color: #CEDDDF;
+    padding-top: 40px;
+    margin-left: 690px;
+}
+.h22{
+    font-size: 20px;
+    color: #CEDDDF;
+    padding-top: 130px;
+    margin-left: 40px;
+}
+.p22{
+    color:#CEDDDF ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pirveli-div{
+    height: 300px;
+    width: 300px;
+    margin-right: 70px;
+    margin-left: 30px;
+    
+}
+.img333{
+ 
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.pp44{
+    color: #21618C;
+    font-size: 22px;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.iinput{
+    background-color: #21618C;
+    height: 35px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+}
+/* shida turebi */
+.georgia111{
+    padding-top: 200px;
+    max-width: 100%;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/tbilisi.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-georgia{
+    position: absolute;
+    width: 100%;
+    
+
+}
+.main-georgia span{
+    text-transform: uppercase;
+    display: block;
+}
+.welcome1{
+    font-size: 60px;
+    font-weight: 700px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 2s 1;
+    padding-top: 270px;
+    padding-left: 750px;
+    
+}
+.welcome2{
+    font-size: 35px;
+    margin-left: 850px;
+
+}
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
 }
