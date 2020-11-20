@@ -1,0 +1,22 @@
+@media (max-width: 1355px) {
+    .container {
+        padding: 0 70px;
+    }
+}
+@media (max-width: 1325px){
+    .navigation{
+        display: none;
+    }
+}
+@media (max-width: 1325px){
+    .burger-icon{
+        display: block;
+        padding-top: 50px;
+        padding-left: 850px;
+    }
+}
+@media (max-width: 1600px){
+    .main-div{
+        margin-bottom: 30px;
+    }
+}
