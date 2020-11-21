@@ -1,22 +1,129 @@
-@media (max-width: 1355px) {
-    .container {
-        padding: 0 70px;
+
+@media (max-width: 985px){
+    .ul{
+        margin-left: 5px;
     }
 }
-@media (max-width: 1325px){
-    .navigation{
+@media (max-width: 900px){
+    .logo{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 1260px){
+    .li-small{
         display: none;
     }
 }
-@media (max-width: 1325px){
+@media (max-width: 680px){
+    .ul{
+        display: none;
+    }
     .burger-icon{
         display: block;
-        padding-top: 50px;
-        padding-left: 850px;
+        padding-top: 60px;
+        margin-left: 400px;
+    }
+}
+@media (max-width: 1120px){
+    .fa-search{
+        display: none;
     }
 }
 @media (max-width: 1600px){
     .main-div{
         margin-bottom: 30px;
+        align-items: center;
+    }
+}
+@media (max-width: 1570px){
+    .p-2{
+        font-size: 20px;
+        margin-left: 500px;
+    }
+}
+@media(max-width: 1570px){
+    .p-1{
+        margin-left: 500px;
+        font-size: 20px;
+    }
+}
+@media(max-width: 1050px){
+    .p-1{
+        font-size: 20px;
+        margin-left: 200px;
+    }
+}
+@media(max-width: 1050px){
+    .p-2{
+        font-size: 20px;
+        margin-left: 200px;
+    }
+}
+@media(max-width: 570px){
+    .p-1{
+        margin-left: 50px;
+    }
+}
+@media(max-width: 570px){
+    .p-2{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 850px){
+    .map{
+        width: 400px;
+        height: 200px;
+    }
+}
+@media (max-width: 600px){
+    .map{
+        display: none;
+    }
+}
+@media (max-width: 1235px){
+    .forms{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 1252px){
+    .pp44{
+        margin-left: 50px;
+    }
+}
+@media(max-width: 1051px){
+    .iinput{
+    height: 30px;
+    width: 170px;
+    font-size: 18px;
+    }
+    .pp44{
+        font-size: 16px;
+    }
+}
+@media(max-width: 830px){
+    .services{
+        margin-left: 300px;
+    }
+}
+@media (max-width: 440px){
+    .services{
+        margin-left: 100px;
+    }
+}
+@media(max-width: 1140px){
+    .welcome1{
+        display: none;
+    }
+    .welcome3{
+        display: block;
+        font-size: 30px;
+        color: white;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+}
+@media(max-width: 1140px){
+    .welcome2{
+        display: none;
     }
 }
