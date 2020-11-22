@@ -125,6 +125,7 @@
         color: white;
         margin-top: 100px;
         margin-left: 50px;
+        font-family: 'Roboto Mono';
     }
 }
 @media(max-width: 1140px){

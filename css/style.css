@@ -75,6 +75,12 @@ a:hover {
 
     
 }
+.p-1{
+    font-family: 'Roboto Mono';
+}
+.p-2{
+    font-family: 'Roboto Mono';
+}
 .burger-icon{
     color: white;
     font-size: 20px;
