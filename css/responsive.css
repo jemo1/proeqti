@@ -24,6 +24,11 @@
         margin-left: 400px;
     }
 }
+@media (max-width: 660px){
+    .burger-icon{
+        margin-left: 150px;
+    }
+}
 @media (max-width: 1120px){
     .fa-search{
         display: none;
